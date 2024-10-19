@@ -1,0 +1,48 @@
+# Python
+*.py[cod]
+*.egg
+*.egg-info/
+*.pyd
+*.so
+*.zip
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+env/
+venv/
+ENV/
+ENV*/
+.venv/
+.venv*/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# FastAPI specific
+instance/
+*.db
+*.sqlite3
+*.log
+
+# PyTest
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Hugging Face Transformers cache
+*.lock
+.cache/
+*.ckpt
+*.pt
+*.bin
+
+# Firebase and cloud services
+firebase-debug.log
+firebase-debug.*
+.firebaserc
